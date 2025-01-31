@@ -1,0 +1,12 @@
+.sonyBar img{
+  width: 120px;
+  object-fit: cover;
+  align-content: end;
+  margin-left: auto;
+}
+.sonyBar{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  height: 35px;
+}

@@ -1,0 +1,5 @@
+<div class="boxCards">
+  <div class="card" *ngFor="let card of cards" (click)="selecionarBanner(card.id)">
+    <img [src]="card.image" alt="Miniatura do banner">
+  </div>
+</div>

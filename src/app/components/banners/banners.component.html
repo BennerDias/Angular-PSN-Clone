@@ -1,0 +1,9 @@
+<!-- Garantimos que `banner` seja válido antes de renderizar o conteúdo -->
+<div *ngIf="banner" class="banner">
+  <img [src]="banner.image" class="d-block w-100" alt="...">
+  <div class="bannerText">
+    <h1>{{ banner.title }}</h1>
+    <p>{{ banner.text }}</p>
+    <app-saiba-mais-button></app-saiba-mais-button>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.banner{
+  position: relative;
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+}
+.bannerText{
+  position: absolute;
+  color: white;
+  padding: 20px;
+  margin-left: 15vh;
+  width: 40%;
+}
+.bannerText h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 2vh;
+}
+.bannerText p {
+  font-size: 1.2rem;
+  width: 80%;
+}

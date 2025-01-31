@@ -1,0 +1,7 @@
+<app-menu-bar (searchEvent)="searchGames($event)"></app-menu-bar>
+<app-banners [banner]="bannerAtual"></app-banners>
+<app-card-banners [cards]="data" (bannerSelecionado)="alterarBanner($event)"></app-card-banners>
+<app-card
+[games]="filteredGames" (filtroSelecionado)="filtrarJogos($event)"
+>
+</app-card>

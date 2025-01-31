@@ -1,0 +1,26 @@
+#navbar{
+  background: rgb(254,255,254);
+  height: 64px;
+  font-size: 1.5rem ;
+  position: sticky;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+}
+#search{
+  border: 1px solid rgb(0,113,205);
+  color: rgb(0,113,205);
+}
+#search:hover {
+  background: rgb(0,113,205);
+  color: white;
+}
+#navbarSupportedContent{
+
+  padding-left: 5px;
+  padding-right: 20px;
+
+}
+.nav-link{
+  color: black;
+}

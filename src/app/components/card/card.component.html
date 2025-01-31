@@ -1,0 +1,23 @@
+<section id="Jogos">
+  <div class="boxGames">
+    <div id="titleBox">
+      <h2>Jogos de PS4 e PS5 já disponíveis</h2>
+      <div class="button">
+        <div id="consoles">
+          <button id="PS4"(click)="filtrar('PS4')">{{ button[0] }}</button>
+          <button id="PS5"(click)="filtrar('PS5')">{{ button[1] }}</button>
+        </div>
+          <button id="all" (click)="filtrar('all')">Todos</button>
+      </div>
+    </div>
+    <div id="cards">
+      <div id="card" *ngFor="let game of games">
+        <img [src]="game.image" alt="" >
+        <div id="selo" [ngStyle]="getCardStyle(game.console)">
+          <p>{{ game.console }}</p>
+        </div>
+        <h3>{{ game.title }}</h3>
+      </div>
+    </div>
+  </div>
+</section>
