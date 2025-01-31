@@ -1,3 +1,16 @@
+Projeto para conclusão do curso de Angular da Dio.me
+
+Funções disponíveis:
+- menu interativo com barra de pesquisa utilizando o ngModel com two way data binding para procura dos jogos.
+- botão de Home para voltar ao início da página.
+- botão de Jogos para descer até a seção onde os jogos estão disponíveis.
+- Botões para filtro dos jogos (PS4, PS5 e Todos)
+- Banner interativo com mini cards abaixo do banner.
+
+Busquei de todas as formas uma Api para os jogos da Sony, porém não há nenhuma Api pública para que eu pudesse concluir esse projeto de uma forma mais profissional, então adicionei uma database Fake para simular o consumo de uma Api.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # PsnStore
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
